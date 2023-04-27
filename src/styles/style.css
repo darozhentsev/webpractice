@@ -1,0 +1,13 @@
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+body, html{
+	min-height: 100%;
+}
+
+main{
+	min-height: 100%;
+}

@@ -1,0 +1,53 @@
+.about-us__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    }
+    
+    .about-us__item {
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+    }
+
+    .about-us__item p{
+        font-size: 28px;
+        text-align: center;
+        }
+    
+    .about-us__map {
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+    }
+    
+    .about-us__map h1 {
+    margin-bottom: 20px;
+    }
+    
+    .about-us__map iframe {
+    width: 100%;
+    height: 500px;
+    }
+    
+    /* Адаптивность */
+    @media only screen and (min-width: 768px) {
+    .about-us__item {
+    max-width: 960px;
+    }
+    }
+    
+    @media only screen and (min-width: 992px) {
+    .about-us__item {
+    max-width: 1200px;
+    }
+    
+    .about-us__map {
+    width: 70%;
+    }
+    
+    .about-us__map iframe {
+    height: 600px;
+    }
+    }

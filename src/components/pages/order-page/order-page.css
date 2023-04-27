@@ -1,0 +1,20 @@
+.order-page {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-top: auto;
+    color: white;
+}
+
+.order-page__left {
+    width: 100%;
+}
+
+.order-page__right {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+

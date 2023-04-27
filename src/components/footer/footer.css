@@ -1,0 +1,35 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+	padding: 60px 0 50px;
+	background-color: var(--footer-bg);
+	color: var(--footer-text);
+    /*min-height: 100%;*/
+}
+
+.footer__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 27px;
+}
+
+.social {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+    list-style: none;
+}
+
+.copyright {
+	font-size: 16px;
+    color: white;
+    margin-left: 55px;
+}
+
+
+.copyright p + p {
+	margin-top: 0.5em;
+}
